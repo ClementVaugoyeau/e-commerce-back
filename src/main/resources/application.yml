@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    password: strong-password
+    url: jdbc:postgresql://localhost:5432/e-commerce-db
+    username: user-name
+  jpa:
+    hibernate:
+      ddl-auto: create
